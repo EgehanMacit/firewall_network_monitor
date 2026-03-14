@@ -1,5 +1,13 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
+# IntelliJ IDEA dosyalarının tamamını engelle
+.idea/
+*.iml
+*.iws
+
+# Python sanal ortam ve önbellek dosyaları
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local değişkenler (şifreler vb.)
+.env
